@@ -7,7 +7,7 @@ interface Participant {
   name: string;
   isMuted: boolean;
   isDeafened: boolean;
-  isSpeak ing: boolean;
+  isSpeaking: boolean;
   volume: number;
 }
 
