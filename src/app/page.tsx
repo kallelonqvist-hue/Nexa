@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
-import { CheckCircle2, MessageCircle, Users, Zap, Shield, Globe, Mic } from "lucide-react";
 
 export default function Home() {
   return (
@@ -56,11 +55,6 @@ export default function Home() {
                 Try Todo App
               </Button>
             </Link>
-            <Link href="/voice">
-              <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white text-lg h-12 px-8">
-                Try Voice Chat
-              </Button>
-            </Link>
           </div>
         </div>
 
@@ -96,9 +90,9 @@ export default function Home() {
           </div>
 
           <div className="bg-nexa-800/40 border border-nexa-700/30 rounded-lg p-8 hover:border-nexa-600/50 transition">
-            <div className="text-4xl mb-4">🎤</div>
-            <h3 className="text-xl font-semibold text-white mb-2">Voice Chat</h3>
-            <p className="text-nexa-300">Crystal-clear voice communication with noise cancellation and quality audio.</p>
+            <div className="text-4xl mb-4">🌍</div>
+            <h3 className="text-xl font-semibold text-white mb-2">Global Community</h3>
+            <p className="text-nexa-300">Connect with people worldwide and discover communities for every interest.</p>
           </div>
         </div>
       </div>
